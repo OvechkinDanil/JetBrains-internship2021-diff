@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Diff for input file </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">	<style><	EQUAL {
+	background: white;
+    color: black;
+    padding: 2px; 
+	}   INSERT {
+    background: #00FF00; 
+    color: black; 
+    padding: 2px; 
+   }
+   
+   DELETE {
+    background: #DCDCDC;
+    color: black; 
+    padding: 2px;
+   }
+   
+   EDITLEFT {
+    background: #00BFFF;
+    color: black; 
+    padding: 2px;
+   }
+   EDITRIGHT {
+    background: #00BFFF;
+    color: black; 
+    padding: 2px;
+   }
+  </style>
+	
+	
+</head>
+<body>
+	
+	<div class="row">
+			
+			<div class="col-md-6 no-gutters">
+			
+				<div class="leftside d-flex justify-content-center align-items-center"> 
+					<pre><EQUAL>				<EDITLEFT>Эта часть документа!!!!</EDITLEFT>
+				<EQUAL>оставалась неизменной</EQUAL>
+				<EQUAL>от версии к версии. Если</EQUAL>
+				<EQUAL>в ней нет изменений, она</EQUAL>
+				<EQUAL>не должна отображаться.</EQUAL>
+				<EQUAL>Иначе это не способствует</EQUAL>
+				<EQUAL>выводу оптимального </EQUAL>
+				<DELETE>объёма произведённых</DELETE>
+				<DELETE>изменений.</DELETE>
+				<DELETE></DELETE>
+				<DELETE>Этот абзац содержит</DELETE>
+				<DELETE>устаревший текст.</DELETE>
+				<DELETE>Он будет удалён</DELETE>
+				<DELETE>в ближайшем будущем.</DELETE>
+				<DELETE></DELETE>
+				<EQUAL>В этом документе</EQUAL>
+				<EDITLEFT>необходима провести</EDITLEFT>
+				<EQUAL>проверку правописания.</EQUAL>
+				<EQUAL>С другой стороны, ошибка</EQUAL>
+				<EQUAL>в слове - не конец света.</EQUAL>
+				<EQUAL>Остальная часть абзаца</EQUAL>
+				<EQUAL>не требует изменений.</EQUAL>
+				<EQUAL>Новый текст можно</EQUAL>
+				<EQUAL>добавлять в конец документа.</EQUAL>
+</EQUAL></pre>
+
+					
+				</div>
+				
+			</div>
+			<div class="col-md-6 no-gutters">
+			
+				<div class="leftside d-flex justify-content-center align-items-center"> 
+					<pre><EQUAL>				<INSERT>Это важное замечание!</INSERT>
+				<INSERT>Поэтому оно должно</INSERT>
+				<INSERT>быть расположено</INSERT>
+				<INSERT>в начале этого</INSERT>
+				<INSERT>документа!</INSERT>
+				<INSERT></INSERT>
+				<EDITRIGHT>Эта часть документа</EDITRIGHT>
+				<EQUAL>оставалась неизменной</EQUAL>
+				<EQUAL>от версии к версии. Если</EQUAL>
+				<EQUAL>в ней нет изменений, она</EQUAL>
+				<EQUAL>не должна отображаться.</EQUAL>
+				<EQUAL>Иначе это не способствует</EQUAL>
+				<EQUAL>выводу оптимального </EQUAL>
+				<INSERT>объёма информации.</INSERT>
+				<INSERT> </INSERT>
+				<EQUAL>В этом документе</EQUAL>
+				<EDITRIGHT>необходимо провести</EDITRIGHT>
+				<EQUAL>проверку правописания.</EQUAL>
+				<EQUAL>С другой стороны, ошибка</EQUAL>
+				<EQUAL>в слове - не конец света.</EQUAL>
+				<EQUAL>Остальная часть абзаца</EQUAL>
+				<EQUAL>не требует изменений.</EQUAL>
+				<EQUAL>Новый текст можно</EQUAL>
+				<EQUAL>добавлять в конец документа.</EQUAL>
+				<INSERT></INSERT>
+				<INSERT>Этот абзац содержит</INSERT>
+				<INSERT>важные дополнения</INSERT>
+				<INSERT>для данного документа.</INSERT>
+</EQUAL></pre>
+
+				</div>
+				
+			</div>			
+			
+	</div>
+	
+
+</body>
+</html>
